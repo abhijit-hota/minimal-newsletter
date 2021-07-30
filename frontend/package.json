@@ -1,8 +1,8 @@
 {
-  "name": "glood-project",
-  "version": "0.0.0",
+  "name": "minimal-newletter-frontend",
+  "version": "1.0.0",
   "scripts": {
-    "dev": "vite --host",
+    "start": "vite --host",
     "build": "vite build",
     "serve": "vite preview"
   },
