@@ -2,7 +2,12 @@ import Database from 'better-sqlite3';
 import express from 'express';
 import cors from 'cors';
 
-const db = new Database('/tmp/glood-database.db', { verbose: console.log });
+/**
+ * The following creates a.db file database in the database directory. The.db file
+ * is .gitignored and the folder is .gitkeeped.
+ **/
+
+const db = new Database('./database/database.db', { verbose: console.log });
 db.prepare('CREATE TABLE IF NOT EXISTS subscribers (email TEXT UNIQUE)').run();
 console.log('Connected to database.');
 
