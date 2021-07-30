@@ -9,4 +9,4 @@
 
 ### Demo
 
-![YouTube Demo Video](https://img.youtube.com/vi/gD533CpWscA/0.jpg)](https://www.youtube.com/watch?v=gD533CpWscA)
+[![YouTube Demo Video](https://img.youtube.com/vi/gD533CpWscA/0.jpg)](https://www.youtube.com/watch?v=gD533CpWscA)
